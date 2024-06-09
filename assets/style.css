@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@keyframes race1 {
+  to {
+    left: 92%;
+  }
+}
+
+@keyframes race2 {
+  to {
+  }
+}
+
+#car {
+  max-height: 5%;
+  position: absolute;
+  z-index: 4;
+  left: 43.5%;
+  top: 92.3%;
+  animation: race1 1.5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.box {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.map {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.bridge {
+  fill: none;
+  stroke-width: 51px;
+  position: absolute;
+  stroke: grey;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+}
+
+.cp {
+  position: absolute;
+}
+
+#path1 {
+  /* visibility: hidden; */
+}
+
+#path2 {
+  /* visibility: hidden; */
+}
+
+#path3 {
+  /* visibility: hidden; */
+}
+
+#path4 {
+  /* visibility: hidden; */
+}
+
+#path5 {
+  /* visibility: hidden; */
+}
+
+#path6 {
+  /* visibility: hidden; */
+}
+
+#path7 {
+  /* visibility: hidden; */
+}
+
+#path8 {
+  /* visibility: hidden; */
+}
+
+#path9 {
+  /* visibility: hidden; */
+}
+
+#path10 {
+  /* visibility: hidden; */
+}
+
+.path {
+  fill: none;
+  position: absolute;
+  stroke-width: 15px;
+  stroke: rgb(255, 94, 0);
+  height: 100%;
+  width: 100%;
+  /* stroke-dasharray: 10000;
+  stroke-dashoffset: 10000; */
+  z-index: 3;
+}

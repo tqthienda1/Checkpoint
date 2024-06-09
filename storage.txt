@@ -1,0 +1,15 @@
+  <script>
+    function run1() {
+      document.getElementById("path1").style.visibility = "visible";
+      document.getElementById("path1").style.animation =
+        "dash 20s linear forwards";
+    }
+    setTimeout("run1()", 5000);
+
+    function run2() {
+      document.getElementById("path2").style.visibility = "visible";
+      document.getElementById("path2").style.animation =
+        "dash 20s linear forwards";
+    }
+    setTimeout("run2()", 10000);
+  </script>

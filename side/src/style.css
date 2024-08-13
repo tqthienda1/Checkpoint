@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  .btns {
+    font-family: sans-serif;
+    font-size: 100%;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5em;
+    background-color: rgb(252, 105, 0);
+    padding: 1%;
+    border: 0px solid orange;
+    border-radius: 10px;
+    margin: 5%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .btns {
+    font-family: sans-serif;
+    font-size: 100%;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5em;
+    background-color: rgb(252, 67, 0);
+    padding: 1%;
+    border: 0px solid orange;
+    border-radius: 10px;
+    margin: 2%;
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 50%;
+}
+
+.btns:hover {
+  cursor: pointer;
+  background-color: rgba(252, 67, 0, 0.8);
+}
+
+.box {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.btns-box {
+  width: 95%;
+  margin: auto;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+}
+
+.instruction {
+  font-size: 80%;
+}
+
+.text {
+  font-family: sans-serif;
+  color: rgb(252, 105, 0);
+}
+
+.panel {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(0, 0, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+}
+
+.label {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}

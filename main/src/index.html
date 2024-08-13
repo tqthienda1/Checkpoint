@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkpoint</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="map">
+        <img src="../assets/map/b2map3.jpg" alt="" />
+        <div id="package1">
+          <div class="teamName">
+            <div class="wrapper" id="name"></div>
+          </div>
+          <div class="cp">
+            <div id="cp1" class="checkpoint"></div>
+            <div id="cp2" class="checkpoint topPad"></div>
+            <div id="cp3" class="checkpoint topPad"></div>
+            <div id="cp4" class="checkpoint topPad"></div>
+            <div id="cp5" class="checkpoint topPad"></div>
+            <div id="cp6" class="checkpoint topPad"></div>
+            <div id="cp7" class="checkpoint topPad"></div>
+            <div id="cp8" class="checkpoint topPad"></div>
+            <div id="cp9" class="checkpoint topPad"></div>
+            <div id="cp10" class="checkpoint topPad"></div>
+          </div>
+        </div>
+        <div id="package2">
+          <img src="../assets/model/car-model2.png" id="car" />
+        </div>
+        <svg class="bridge" viewBox="-365 0, 1000 1000">
+          <path d="M335 472 L710 472 M527 300 L527 650" />
+        </svg>
+        <svg class="path" id="path1" viewBox="-365 0, 1000 1000">
+          <path id="motionPath1" d="M80 947 L575 947 " />
+        </svg>
+        <svg class="path" id="path2" viewBox="-365 0, 1000 1000">
+          <path
+            id="motionPath2"
+            d="M575 947 L910 947 C930 947, 948 944, 946 907 L945 650 C945
+          650, 948 635, 920 635 L735 635 L735 835 L575 835"
+          />
+        </svg>
+        <svg
+          class="path"
+          id="path3"
+          viewBox="-365 0, 1000 1000"
+          style="z-index: 5"
+        >
+          <path id="motionPath3" d="M575 835 L525 835 L525 155" />
+        </svg>
+        <svg class="path" id="path4" viewBox="-365 0, 1000 1000">
+          <path
+            id="motionPath4"
+            d="M525 155 C525 130, 530 105, 550 105 L580 105 C580 105, 600
+          105, 600 130 L600 340 C600 370, 690 470, 770 350 L770 270 C770 240,
+          780 190, 860 190 L895 190 L895 317"
+          />
+        </svg>
+        <svg
+          class="path"
+          id="path5"
+          viewBox="-365 0, 1000 1000"
+          style="z-index: 5"
+        >
+          <path
+            id="motionPath5"
+            d="M895 317 L895 440 C895 470, 860 470, 830 470 L170 470"
+          />
+        </svg>
+        <svg class="path" id="path6" viewBox="-365 0, 1000 1000">
+          <path
+            id="motionPath6"
+            d="M170 470 L140 470 C100 470, 104 430, 104 400 L105 130 C105
+          120, 120 105, 140 105 L288 105 L288 175 L288 105 L430 105 C450 105, 470 105, 470 155"
+          />
+        </svg>
+        <svg class="path" id="path7" viewBox="-365 0, 1000 1000">
+          <path
+            id="motionPath7"
+            d="M470 155 L470 445 C470 445, 490 500, 520 525 L900 525 C900 525, 950 510, 950 480 L950 315"
+          />
+        </svg>
+        <svg class="path" id="path8" viewBox="-365 0, 1000 1000">
+          <path
+            id="motionPath8"
+            d="M950 315 L950 100 C950 100, 930 50, 890 50 L170 50"
+          />
+        </svg>
+        <svg class="path" id="path9" viewBox="-365 0, 1000 1000">
+          <path
+            id="motionPath9"
+            d="M170 50 L100 50 C100 50, 50 60, 50 120 L50 470 C50 470, 60 530, 130 526 L172 526 "
+          />
+        </svg>
+        <svg class="path" id="path10" viewBox="-365 0, 1000 1000">
+          <path
+            id="motionPath10"
+            d="M172 526 L435 525 C460 525, 470 520, 470 600 L470 690 C470 710, 473 728, 410 728 L85 728 C60 728, 50 740, 50 800 L50 866 "
+          />
+        </svg>
+      </div>
+    </div>
+  </body>
+  <script src="gsap.min.js"></script>
+  <script src="./MotionPathPlugin.min.js"></script>
+  <script src="script.js"></script>
+</html>
